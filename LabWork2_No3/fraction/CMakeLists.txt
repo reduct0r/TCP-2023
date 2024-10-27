@@ -1,15 +1,15 @@
-cmake_minimum_required(VERSION 3.8)
+﻿cmake_minimum_required(VERSION 3.8)
 
-set(project "planets")
+set(project "fraction")
 project(${project})
 
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 17)
 
 set(${project}_SOURCES
-        planets.cpp)
+        fraction.cpp)
 
 set(${project}_HEADERS
-        planets.h)
+        fraction.h)
 
 set(${project}_SOURCE_LIST
         ${${project}_SOURCES}
